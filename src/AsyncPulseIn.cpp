@@ -1,7 +1,7 @@
 #include "Particle.h"
 
-#include "AsyncPulseIn/AsyncPulseIn.h"
-#include "AsyncPulseIn/RingBuffer.h"
+#include "AsyncPulseIn.h"
+#include "RingBuffer.h"
 
 static const size_t PULSEINFO_SIZE = 32;
 static AsyncPulseInPulseInfo pulseInfoBuffer[PULSEINFO_SIZE];

@@ -1,6 +1,6 @@
 #include "Particle.h"
 
-#include "AsyncPulseIn/AsyncPulseIn.h"
+#include "AsyncPulseIn.h"
 
 // Initialize the AsyncPulseIn object to listen on D2 and measure the width of the HIGH part of the pulse
 AsyncPulseIn asyncPulse(D2, HIGH);
